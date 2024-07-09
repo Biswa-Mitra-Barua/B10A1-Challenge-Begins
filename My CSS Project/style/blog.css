@@ -1,0 +1,50 @@
+.header{
+    height: 400px;
+    text-align: center;
+    border: 2px dashed blueviolet;
+    background-color: aquamarine;
+    /* background-image: url("grandma.jfif"); */
+    background-image: url('../strong\ child.jfif');
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* background-size: contain; */
+    /* background-size: 400px; */
+    /* background-position: left; */
+}
+h3{
+    font-style: italic;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.incident{
+    /* display: block ---- eta aage dile problem hocce*/
+    /* display: inline-block; */
+    border: 2px solid blue;
+    text-decoration: underline greenyellow;
+    display: block;
+}
+.face{
+    font-weight: bolder;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+/* .second{ */
+    /* display: none; */
+    /* visibility: hidden; */
+/* } */
+li{
+    display: inline-block;
+}
+.border{
+    text-decoration: underline red;
+}
+.blog{
+    margin: 40px;
+    border: 10px solid tomato;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px blueviolet;
+}

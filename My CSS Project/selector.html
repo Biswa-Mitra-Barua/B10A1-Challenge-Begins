@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selectors</title>
+    <style>
+        *{
+            /* margin: 0; */
+        }
+        .holud, .yellow{
+            background-color: yellow;
+            text-align: center;
+        }
+        .bold{
+            font-size: larger;
+            font-weight: 900;
+        }
+        #fifth, li{
+            font-weight: 800;
+        }
+        input{
+            font-size: 30px;
+            color: red;
+        }
+        input[type="password"]{       <!--This is a attrnute selector-->
+            color: blue;
+        }
+        .blog{
+            background-color: aqua;
+        }
+        .first{
+            color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <p>This is my <span class="first">first CSS</span></p>
+    <p class="holud">This is my second CSS</p>
+    <p>This is my third CSS</p>
+    <p class="yellow bold">This is my fourth CSS</p>
+    <p class="holud" id="fifth">This is my fifth CSS</p>
+    <p class="bold">This is my sixth CSS</p>
+    <p>This is my seventh CSS</p>
+    <ol>
+        <li>Element Selectors</li>
+        <li class="yellow">Class Selectors</li>
+        <li>ID Selectors</li>
+        <li>Universal Selectors</li>
+    </ol>
+    <form action="">
+        <input type="text">
+        <input type="password" name="" id="">
+    </form>
+
+    <div class="blog">
+        <h3>My blog</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, nam, natus laudantium atque earum dolor ab explicabo corrupti sint at provident asperiores libero dicta ipsam excepturi pariatur itaque magni! Quos.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro odit deserunt ratione quia aperiam numquam, blanditiis tempore vitae est praesentium voluptate deleniti facilis consectetur distinctio. Tempora libero quas sint maiores.</p>
+    </div>
+</body>
+</html>
